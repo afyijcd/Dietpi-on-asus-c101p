@@ -23,3 +23,7 @@ SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="aa:bb:cc:dd:ee:ff", ATTR{dev_id
 Optionally, you can create a DietPi image with the Imager. You still need to export the variables. Git owner is ‘MichaIng’ and git branch is ‘master’.
 
 Boot up and finalize the DietPi installation/configuration.
+
+
+if all works and tou want to copy it to the main drive (smaller) see this site
+https://ames-pc.com/2025/04/03/cloning-drive-to-smaller-drive-using-dd/
