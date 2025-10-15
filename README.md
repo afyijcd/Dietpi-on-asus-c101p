@@ -2,12 +2,16 @@
 How to get dietpi running on an old Asus flipbook
 
 
-Install Velvet OS on an ASUS C101 - use the install script or you'll uuid conflicts
+Install Velvet OS on an ASUS C101 - use the install script or you'll get uuid conflicts
+
+use nmtui to connect to internet if necessary
 
 - Extend rootfs (see /scripts).
 - Set root password: `sudo passwd root`.
 - Connect via Ethernet.
-- Install DietPi / Other.
+- Install DietPi / Download / Other.
+
+choose Generic device when prompted
 
 (Optionally create a DietPi image from the SD card on another computer.)
 
